@@ -24,6 +24,7 @@ The terminal should display the Node.js version installed on your computer.
 1. Open your favorite IDE. 
 
 My favorite one is Visual Studio Code (VSC). You can download (VSC)(https://code.visualstudio.com/download). VSC comes with many great JavaScript extensions such as JavaScript IntelliSense for debugging, formatting,...
+
 2. Create a new file with `<filename>.js` extension. 
 3. Write your JavaScript script (e.g. `console.log ("Hello World")`)
 4. Open Terminal on your IDE. For example, on VSC, you go `View > Terminal`. 
