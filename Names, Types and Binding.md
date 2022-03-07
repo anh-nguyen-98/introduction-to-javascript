@@ -55,9 +55,37 @@ Yes, JavaScript has 39 reserved key words as of ECMA 2015.
 
  *\* They are reserved as future keywords by the ECMAScript specification. They have no special functionality at present, but they might at some future time, so they cannot be used as identifiers.*
 
+*2. What are the naming requirements for variables in JavaScript?*
+- Identifiers use only ASCII letters and digits, and, in a small number of cases noted below, underscores (`_`) and very rarely (when required by frameworks like Angular) dollar signs (`$`). All names start with a letter.
+- Package names are all lowerCamelCase.
+- Class, interface, record, and typedef names are written in UpperCamelCase. Type names are typically nouns or noun phrases.
+- Method names are written in lowerCamelCase. Method names are typically verbs or verb phrases.
+- Enum names are written in UpperCamelCase, similar to classes, and should generally be singular nouns. Individual items within the enum are named in CONSTANT_CASE.
+- Constant names use CONSTANT_CASE: all uppercase letters, with words separated by underscores.
+- Local variable names are written in lowerCamelCase, except for module-local (top-level) constants, as described above. Constants in function scopes are still named in lowerCamelCase
+- Parameter names are written in lowerCamelCase. When required by a third-party framework, parameter names may begin with a `$`.
+
+Please refer to [data-type.js](https://github.com/anh-nguyen-98/introduction-to-javascript/blob/main/data-type.js) 
+These naming conventions are enforeced by standards in the community.
+
+
 ## References(#references)
 
-https://www.w3schools.com/js/js_conventions.asp
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
+
+https://www.edureka.co/blog/javascript-reserved-words/#:~:text=In%20any%20programming%20language%2C%20a,for%20defining%20any%20of%20these.
+
+https://google.github.io/styleguide/jsguide.html#naming
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+
+https://developer.mozilla.org/en-US/docs/Glossary/Symbol
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+
 
