@@ -3,7 +3,7 @@
 ## [History](#history)
 
 - The name of the language is JavaScript, often abbreviated as JS. Though the name sounds similar to Java, the two languages are not directly related. They are very different from each other in how they are used, assembled and executed.
-- JavaScript was officially released in Decemnber 1995 by Netscape corporation.
+- JavaScript was officially released in Decemnber 1995 by Netscape corporation. JavaScript is an interpreted language.
 - At the time, World Wide Web was growing rapidly. People needed not only beautiful web pages, but also dynamic ones, where the web page content (HTML, CSS) could be updated based on the users' interaction. However, at the time, the web pages were not polished and static. By being "static", everything on the web page remained the same all the time. Netscape Corporation was the first company to invest in creating a new scripting language that could create dynamic behaviours for web pages.
 - JavaScript is mostly used in client-side web development. Client-side means the JavaScript code, together with HTML, CSS is downloaded and executed on browser - the client side (Google Chrome, Microsoft Edge, etc.) to display web pages to users including image/ video animation and update content according to user action (button click, mouse hovering, etc.), input validation. 
 - Some great resources for learning JavaScript:
