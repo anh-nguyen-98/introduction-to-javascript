@@ -65,16 +65,59 @@ Yes, JavaScript has 39 reserved key words as of ECMA 2015.
 - Local variable names are written in lowerCamelCase, except for module-local (top-level) constants, as described above. Constants in function scopes are still named in lowerCamelCase
 - Parameter names are written in lowerCamelCase. When required by a third-party framework, parameter names may begin with a `$`.
 
-Please refer to [data-type.js](https://github.com/anh-nguyen-98/introduction-to-javascript/blob/main/data-type.js) 
+Please refer to [data-type.js](https://github.com/anh-nguyen-98/introduction-to-javascript/blob/main/data-type.js).
+
 These naming conventions are enforeced by standards in the community.
 
+*3. Is JavaScript statically or dynamically typed? Strongly typed or weakly typed? Explicitly typed or implicitly typed? *
+
+- JavaScript is dynamically typed.
+
+For example,
+
+```javascript
+let foo = 42;    // foo is now a number
+foo     = 'bar'; // foo is now a string
+foo     = true;  // foo is now a boolean
+```
+
+- JavaScript is weakly typed.
+For example,
+
+```javascript
+var apples=1.43;
+var oranges=2.33;
+var shipping=2.75;
+var subtotal=apples + oranges;
+var total=subtotal + shipping;
+var message = "Your total is $";
+var deliver = message + total + ".";
+console.log(deliver) // output: "Your total is $6.51."
+
+```
+
+- JavaScript is both implicitly typed.
+
+*4. Are some variables mutable while others are immutable?*
+
+- All JavaScript primitive types define immutable values. Primitive types include:
+    * Boolean
+    * Null
+    * Undefined
+    * Number
+    * BigInt
+    * String
+    * Symbol
+- Objects define mutable values.
+    * Date
+    * Array
+    * Set
+    * Map
 
 ## References(#references)
 
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
-
-https://www.edureka.co/blog/javascript-reserved-words/#:~:text=In%20any%20programming%20language%2C%20a,for%20defining%20any%20of%20these.
 
 https://google.github.io/styleguide/jsguide.html#naming
 
@@ -88,4 +131,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
