@@ -3,7 +3,7 @@
 All the coding examples for this file can be found at [data-type.js](https://github.com/anh-nguyen-98/introduction-to-javascript/blob/main/data-type.js).
 
 
-## Reserved key words(#reserved-key-words)
+## [Reserved key words](#reserved-key-words)
 
 JavaScript has 39 reserved key words as of ECMA 2015.
 
@@ -55,7 +55,7 @@ JavaScript has 39 reserved key words as of ECMA 2015.
 
  *\* They are reserved as future keywords by the ECMAScript specification. They have no special functionality at present, but they might at some future time, so they cannot be used as identifiers.*
 
-## Naming requirements for variables (#naming-requirements-for-variables)
+## [Naming requirements for variables](#naming-requirements-for-variables)
 
 - Identifiers use only ASCII letters and digits, and, in a small number of cases noted below, underscores (`_`) and very rarely (when required by frameworks like Angular) dollar signs (`$`). All names start with a letter.
 - Package names are all lowerCamelCase.
@@ -70,7 +70,7 @@ Please refer to [data-type.js](https://github.com/anh-nguyen-98/introduction-to-
 
 These naming conventions are enforeced by standards in the community.
 
-## Typing(#typing)
+## [Typing](#typing)
 
 - JavaScript is dynamically typed.
 
@@ -99,7 +99,7 @@ console.log(deliver) // output: "Your total is $6.51."
 
 - JavaScript is both implicitly typed and explicitly typed depending on the values.
 
-## Mutability(#mutability)
+## [Mutability](#mutability)
 
 - All JavaScript primitive types define immutable values. Primitive types include:
     * Boolean
@@ -115,44 +115,44 @@ console.log(deliver) // output: "Your total is $6.51."
     * Set
     * Map
 
-## Operators(#operators)
+## [Operators](#operators)
 
-### Assignment operators(#assignment-operators)
+### [Assignment operators](#assignment-operators)
 
 - list operators
 - structuring & destructuring 
 - discourage chaining
    - example
 
-### Comparison operators(#comparison-operators)
+### [Comparison operators](#comparison-operators)
 - list
 - pay attention to strict equal `===` vs. `==`
 
-### Arithmetic operators(#arithmetic-operators)
+### [Arithmetic operators](#arithmetic-operators)
 - list
 - integer division or float devision?
 - division by 0 --> infinity
 
-### Bitwise operators (#bitwise-operators)
+### [Bitwise operators](#bitwise-operators)
 
-### Logical operators (#logical-operators)
+### [Logical operators](#logical-operators)
 
 - list
 - short-circuit
 
-### String operator (#string-operator)
+### [String operator](#string-operator)
 
-### Ternary (conditional) operator (#ternary-(-conditional-)-operator)
+### [Ternary (conditional) operator](#ternary-(-conditional-)-operator)
 
-### Comma operator (#comma-operator)
+### [Comma operator](#comma-operator)
 
-### Unary operator (#unary-operator)
+### [Unary operator](#unary-operator)
 
 - delete
 - typeof
 - void
 
-### Relational operator (#relational-operator)
+### [Relational operator](#relational-operator)
 
 - in 
 - in vs. of
