@@ -177,7 +177,7 @@ https://2ality.com/2012/02/js-pitfalls.html
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#indexed_collections_arrays_and_typed_arrays
 
 
-## References(#references)
+## [References](#references)
 
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
