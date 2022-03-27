@@ -3,9 +3,9 @@
 All the coding examples for this file can be found at [data-type.js](https://github.com/anh-nguyen-98/introduction-to-javascript/blob/main/data-type.js).
 
 
-*1. Does JavaScript have key words or reserved words? How many?*
+## Reserved key words(#reserved-key-words)
 
-Yes, JavaScript has 39 reserved key words as of ECMA 2015.
+JavaScript has 39 reserved key words as of ECMA 2015.
 
 | Keyword | Description |
 |---------|-------------|
@@ -55,7 +55,8 @@ Yes, JavaScript has 39 reserved key words as of ECMA 2015.
 
  *\* They are reserved as future keywords by the ECMAScript specification. They have no special functionality at present, but they might at some future time, so they cannot be used as identifiers.*
 
-*2. What are the naming requirements for variables in JavaScript?*
+## Naming requirements for variables (#naming-requirements-for-variables)
+
 - Identifiers use only ASCII letters and digits, and, in a small number of cases noted below, underscores (`_`) and very rarely (when required by frameworks like Angular) dollar signs (`$`). All names start with a letter.
 - Package names are all lowerCamelCase.
 - Class, interface, record, and typedef names are written in UpperCamelCase. Type names are typically nouns or noun phrases.
@@ -69,7 +70,7 @@ Please refer to [data-type.js](https://github.com/anh-nguyen-98/introduction-to-
 
 These naming conventions are enforeced by standards in the community.
 
-*3. Is JavaScript statically or dynamically typed? Strongly typed or weakly typed? Explicitly typed or implicitly typed? *
+## Typing(#typing)
 
 - JavaScript is dynamically typed.
 
@@ -96,9 +97,9 @@ console.log(deliver) // output: "Your total is $6.51."
 
 ```
 
-- JavaScript is both implicitly typed.
+- JavaScript is both implicitly typed and explicitly typed depending on the values.
 
-*4. Are some variables mutable while others are immutable?*
+## Mutability(#mutability)
 
 - All JavaScript primitive types define immutable values. Primitive types include:
     * Boolean
@@ -113,6 +114,68 @@ console.log(deliver) // output: "Your total is $6.51."
     * Array
     * Set
     * Map
+
+## Operators(#operators)
+
+### Assignment operators(#assignment-operators)
+
+- list operators
+- structuring & destructuring 
+- discourage chaining
+   - example
+
+### Comparison operators(#comparison-operators)
+- list
+- pay attention to strict equal `===` vs. `==`
+
+### Arithmetic operators(#arithmetic-operators)
+- list
+- integer division or float devision?
+- division by 0 --> infinity
+
+### Bitwise operators (#bitwise-operators)
+
+### Logical operators (#logical-operators)
+
+- list
+- short-circuit
+
+### String operator (#string-operator)
+
+### Ternary (conditional) operator (#ternary-(-conditional-)-operator)
+
+### Comma operator (#comma-operator)
+
+### Unary operator (#unary-operator)
+
+- delete
+- typeof
+- void
+
+### Relational operator (#relational-operator)
+
+- in 
+- in vs. of
+
+
+*6. Are mixed type operations allowed? If so, how are they accommodated?*
+
+*7. At what point are identifier names and operator symbols bound in your language? For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?*
+
+https://topdev.vn/blog/5-quy-tac-binding-trong-javascript/ 
+
+*8. Describe the limitations (or lack thereof) of your programming language as they relate to the coding example portion of the assignment (adding ints and floats, storing different types in lists, converting between data types). Are there other restrictions or pitfalls that the documentation mentions that you need to be aware of?*
+
+https://hackernoon.com/work-with-javascript-arrays-like-a-boss-97207a042e42
+
+https://2ality.com/2012/02/js-pitfalls.html
+
+
+
+*9. Are there built-in complex data types that are commonly used in your language? (hint: they’d probably appear fairly early in the documentation if so)*
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#indexed_collections_arrays_and_typed_arrays
+
 
 ## References(#references)
 
@@ -133,3 +196,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+https://eloquentjavascript.net/04_data.html
