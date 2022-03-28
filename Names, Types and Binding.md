@@ -176,6 +176,7 @@ https://2ality.com/2012/02/js-pitfalls.html
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#indexed_collections_arrays_and_typed_arrays
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ## [References](#references)
 
@@ -195,6 +196,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 
