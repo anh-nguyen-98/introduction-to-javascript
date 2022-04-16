@@ -58,12 +58,27 @@ for (let i of arr) {
 
 2. What is the syntax for declaring a function in your language?
 
+A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+
+ - The name of the function.
+ - A list of parameters to the function, enclosed in parentheses and separated by commas.
+ - The JavaScript statements that define the function, enclosed in curly brackets, {...}.
+
 
 3. Are there any rules about where the function has to be placed in your code file so that it can run?
 4. Does your language support recursive functions?
-5. Can functions in your language accept multiple parameters? Can they be of different data types?
-6. Can functions in your language return multiple values at the same time? How is that implemented?  If not, are there ways around that problem?  What are they?
-7. Is your language pass-by reference or value? Check your code against outside sources in case there is anything tricky going on (like in Perl).
+Yes, JavaScript supports recursive functions
+6. Can functions in your language accept multiple parameters? Can they be of different data types?
+
+JavaScript accepts multiple parameters. They can be of different data types.
+
+8. Can functions in your language return multiple values at the same time? How is that implemented?  If not, are there ways around that problem?  What are they?
+
+JavaScript doesn't support functions that return multiple values.
+
+We can wrap multiple values into an array or an object and return the array or the object. Use destructuring assignment syntax to unpack values from the array, or properties from objects.
+
+10. Is your language pass-by reference or value? Check your code against outside sources in case there is anything tricky going on (like in Perl).
 
 JavaScript passes by value.
 
