@@ -4,46 +4,46 @@
 
 WHILE
 
-'''
+```
 let n = 0;
 while (n < 3) {
   console.log(n);
   n++;
 }
 
-'''
+```
 
 DO WHILE
 
-'''
+```
 let i = 0;
 do {
   i += 1;
   console.log(i);
 } while (i < 5);
-'''
+```
 
 FOR
 
-'''
+```
 for (let step = 0; step < 5; step++) {
     // Runs 5 times, with values of step 0 through 4.
     console.log('Walking east one step');
 }
 
-'''
+```
 FOR ... IN
 
-'''
+```
 let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 for (let i in person) {
     console.log(i + ' = ' + person[i]);
 }
-'''
+```
 
 FOR ... EACH
 
-'''
+```
 const arr = [3, 5, 7];
 arr.foo = 'hello';
 
@@ -54,7 +54,7 @@ for (let i in arr) {
 for (let i of arr) {
    console.log(i); // logs 3, 5, 7
 }
-'''
+```
 
 2. What is the syntax for declaring a function in your language?
 
