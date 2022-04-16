@@ -131,7 +131,7 @@ console.log(getNames().firstName);
 ## Pass by value
 - JavaScript passes by value.
 
-For primitives, the value of the argument, which is the primitive value, is copied into the parameter variable. Changing the parameter value inside the function would not affect the argument variable.
+For primitives, the value of the argument, which is the primitive value, is copied into the parameter variable. Changing the value of the parameter variable inside the function would not affect the variable passed in the argument.
 ```
 function test(a) {
     a = 5;
@@ -143,7 +143,7 @@ test(x)
 console.log (x);
 ```
 
-- For objects, the value of the argument, which is the reference of the object, is copied into the parameter variable. Therefore, changing the parameter variable inside the function would impact the passed-in variable.
+- For objects, the value of the argument, which is the reference of the object, is copied into the parameter variable. Therefore, changing the parameter variable inside the function would impact the variable passed in the argument.
 
 ```
 const a = [3, 2, 1];
@@ -160,7 +160,7 @@ console.log(a);
 
 ```
 
-When reassinging the parameter to another new object, the parameter refers to a new memory address. The original variable in the argument still points to the original object address. 
+- When reassinging the parameter to another new object, the parameter refers to a new memory address. The original variable in the argument still points to the original object address. 
 ```
 const b = [3, 2, 1];
 
@@ -173,6 +173,8 @@ test_2(b);
 console.log(b);
 //output: [3, 1, 1]
 ```
+
+
 
 ## References
 
