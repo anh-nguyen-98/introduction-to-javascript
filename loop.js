@@ -1,10 +1,12 @@
+// LOOP
+
 // while
 let n = 0;
-let x = 0;
 while (n < 3) {
+  console.log(n);
   n++;
-  x += n;
 }
+
 // do while
 let i = 0;
 do {
@@ -35,3 +37,40 @@ for (let i of arr) {
    console.log(i); // logs 3, 5, 7
 }
 
+
+// FUNCTION
+function multiply(a, b) {
+    return a * b;
+}
+
+console.log(multiply(4, 5));
+
+function factorial (n) {
+    if (n == 0) {
+        return 1;
+    }
+    return n * factorial(n-1);
+}
+
+console.log(factorial(1));
+
+
+// PASS BY REFERENCE OR VALUES
+const a = [3, 2, 1];
+
+function test (a){
+    a = [5, 2, 4];
+}
+
+
+test(a);
+console.log(a);
+
+function test2(a) {
+    a = 5;
+
+}
+
+const x = 7;
+test2(x)
+console.log (x);
