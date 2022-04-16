@@ -2,7 +2,7 @@
 
 ## LOOPs
 
-WHILE
+- `while`
 
 ```
 let n = 0;
@@ -13,7 +13,7 @@ while (n < 3) {
 
 ```
 
-DO WHILE
+- `do...while...`
 
 ```
 let i = 0;
@@ -23,7 +23,7 @@ do {
 } while (i < 5);
 ```
 
-FOR
+- `for`
 
 ```
 for (let step = 0; step < 5; step++) {
@@ -32,7 +32,8 @@ for (let step = 0; step < 5; step++) {
 }
 
 ```
-FOR ... IN
+
+- `for ... in`
 
 ```
 let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
@@ -41,7 +42,7 @@ for (let i in person) {
 }
 ```
 
-FOR ... EACH
+- `for ...of`
 
 ```
 const arr = [3, 5, 7];
@@ -63,10 +64,36 @@ for (let i of arr) {
     - A list of parameters to the function, enclosed in parentheses and separated by commas.
     - The JavaScript statements that define the function, enclosed in curly brackets, {...}.
 
+For example
+```
+function multiply(a, b) {
+    return a * b;
+}
+console.log(multiply(4, 5));
+```
+
 
 - Functions can be written outside an object, like Python.
 - JavaScript supports recursive functions
+
+```
+function factorial (n) {
+    if (n == 0) {
+        return 1;
+    }
+    return n * factorial(n-1);
+}
+
+console.log(factorial(1));
+```
+
 - JavaScript accepts multiple parameters. They can be of different data types.
+
+```
+function multiply(a, b) {
+    return a * b;
+}
+```
 - JavaScript doesn't support functions that return multiple values.
 - To work around, we can wrap multiple values into an array or an object and return the array or the object. Use destructuring assignment syntax to unpack values from the array, or properties from objects.
 
