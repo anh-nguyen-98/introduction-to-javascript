@@ -56,21 +56,34 @@ console.log(factorial(1));
 
 
 // PASS BY REFERENCE OR VALUES
-const a = [3, 2, 1];
-
-function test (a){
-    a = [5, 2, 4];
-}
-
-
-test(a);
-console.log(a);
-
-function test2(a) {
+function test(a) {
     a = 5;
 
 }
 
 const x = 7;
-test2(x)
+test(x)
 console.log (x);
+
+const a = [3, 2, 1];
+
+function test_1 (a){
+    a[0] = 1;
+}
+
+
+test_1(a);
+console.log(a);
+//output: [1, 2, 1]
+
+const b = [3, 2, 1];
+
+function test_2 (a){
+    a = [5, 2, 4];
+}
+
+
+test_2(b);
+console.log(b);
+//output: [3, 1, 1]
+
