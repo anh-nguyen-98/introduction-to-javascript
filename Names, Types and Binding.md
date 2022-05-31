@@ -86,11 +86,7 @@ foo     = true;  // foo is now a boolean
 For example,
 
 ```javascript
-var apples=1.43;
-var oranges=2.33;
-var shipping=2.75;
-var subtotal=apples + oranges;
-var total=subtotal + shipping;
+var total= 6.51;
 var message = "Your total is $";
 var deliver = message + total + ".";
 console.log(deliver) // output: "Your total is $6.51."
